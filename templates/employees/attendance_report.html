@@ -1,0 +1,43 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Attendance{% endblock %}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Report</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Attendance Report</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Employee</th>
+                    <th>Date</th>
+                    <th>Sign In Time</th>
+                    <th>Sign Out Time</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in attendance_records %}
+                <tr>
+                    <td>{{ record.user.first_name }}</td>
+                    <td>{{ record.date }}</td>
+                    <td>{{ record.sign_in_time|date:"H:i:s" }}</td>
+                    <td>{{ record.sign_out_time|date:"H:i:s" }}</td>
+                    <td>${{ record.calculate_salary }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4">No attendance records found.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+{% endblock %}

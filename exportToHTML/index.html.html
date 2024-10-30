@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>index.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.s1 { color: #bcbec4;}
+.s2 { color: #d5b778;}
+.s3 { color: #bcbec4;}
+.s4 { color: #d5b778;}
+.s5 { color: #bababa;}
+.s6 { color: #6aab73;}
+.s7 { color: #7a7e85;}
+.s8 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+index.html</font>
+</center></td></tr></table>
+<pre><span class="s0">{% </span><span class="s2">load </span><span class="s0">static %}</span>
+<span class="s4">&lt;!DOCTYPE </span><span class="s5">html</span><span class="s4">&gt;</span>
+<span class="s4">&lt;html </span><span class="s5">lang</span><span class="s6">=&quot;en&quot;</span><span class="s4">&gt;</span>
+<span class="s4">&lt;head&gt;</span>
+    <span class="s4">&lt;meta </span><span class="s5">charset</span><span class="s6">=&quot;UTF-8&quot;</span><span class="s4">&gt;</span>
+    <span class="s4">&lt;title&gt;</span><span class="s3">Title</span><span class="s4">&lt;/title&gt;</span>
+<span class="s4">&lt;/head&gt;</span>
+<span class="s4">&lt;body&gt;</span>
+
+<span class="s4">&lt;/body&gt;</span>
+<span class="s4">&lt;/html&gt;</span>
+
+<span class="s7">&lt;!-- CpE201/templates/index.html --&gt;</span>
+<span class="s4">&lt;!DOCTYPE </span><span class="s5">html</span><span class="s4">&gt;</span>
+<span class="s4">&lt;html </span><span class="s5">lang</span><span class="s6">=&quot;&quot;</span><span class="s4">&gt;</span>
+<span class="s4">&lt;head&gt;</span>
+    <span class="s4">&lt;title&gt;</span><span class="s3">Welcome to the Cpe201 EMS Website</span><span class="s4">&lt;/title&gt;</span>
+<span class="s4">&lt;/head&gt;</span>
+<span class="s4">&lt;body&gt;</span>
+    <span class="s4">&lt;h1&gt;</span><span class="s3">Welcome to Cpe201 EMS Website</span><span class="s4">&lt;/h1&gt;</span>
+
+<span class="s4">&lt;/body&gt;</span>
+<span class="s4">&lt;/html&gt;</span>
+
+<span class="s4">&lt;!DOCTYPE </span><span class="s5">html</span><span class="s4">&gt;</span>
+<span class="s4">&lt;html </span><span class="s5">lang</span><span class="s6">=&quot;en&quot;</span><span class="s4">&gt;</span>
+<span class="s4">&lt;head&gt;</span>
+    <span class="s4">&lt;meta </span><span class="s5">charset</span><span class="s6">=&quot;UTF-8&quot;</span><span class="s4">&gt;</span>
+    <span class="s4">&lt;meta </span><span class="s5">name</span><span class="s6">=&quot;viewport&quot; </span><span class="s5">content</span><span class="s6">=&quot;width=device-width, initial-scale=1.0&quot;</span><span class="s4">&gt;</span>
+    <span class="s4">&lt;title&gt;</span><span class="s3">Home Page</span><span class="s4">&lt;/title&gt;</span>
+    <span class="s4">&lt;link </span><span class="s5">rel</span><span class="s6">=&quot;stylesheet&quot; </span><span class="s5">href</span><span class="s6">=&quot;</span><span class="s0">{% </span><span class="s2">static </span><span class="s8">'css/style.css' </span><span class="s0">%}</span><span class="s6">&quot;</span><span class="s4">&gt;</span>
+<span class="s4">&lt;/head&gt;</span>
+<span class="s4">&lt;body&gt;</span>
+    <span class="s4">&lt;div </span><span class="s5">class</span><span class="s6">=&quot;container&quot;</span><span class="s4">&gt;</span>
+        <span class="s4">&lt;h1&gt;</span><span class="s3">OJORPROG</span><span class="s4">&lt;/h1&gt;</span>
+        <span class="s4">&lt;p&gt;</span><span class="s3">Please login or register to create your account and experience our website</span><span class="s4">&lt;/p&gt;</span>
+        <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;</span><span class="s0">{% </span><span class="s2">url </span><span class="s8">'register' </span><span class="s0">%}</span><span class="s6">&quot;</span><span class="s4">&gt;</span><span class="s3">Register</span><span class="s4">&lt;/a&gt; </span>
+        <span class="s4">&lt;h1&gt; &lt;/h1&gt;</span>
+        <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;</span><span class="s0">{% </span><span class="s2">url </span><span class="s8">'login' </span><span class="s0">%}</span><span class="s6">&quot;</span><span class="s4">&gt;</span><span class="s3">Login</span><span class="s4">&lt;/a&gt;  </span>
+        <span class="s4">&lt;h1&gt; &lt;/h1&gt;</span>
+        <span class="s4">&lt;a </span><span class="s5">href</span><span class="s6">=&quot;</span><span class="s0">{% </span><span class="s2">url </span><span class="s8">'logout' </span><span class="s0">%}</span><span class="s6">&quot;</span><span class="s4">&gt;</span><span class="s3">Logout</span><span class="s4">&lt;/a&gt;</span>
+    <span class="s4">&lt;/div&gt;</span>
+<span class="s4">&lt;/body&gt;</span>
+<span class="s4">&lt;/html&gt;</span>
+</pre>
+</body>
+</html>

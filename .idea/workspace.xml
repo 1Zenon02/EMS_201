@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="017429d6-662f-4b6d-94a6-c442d2d53e65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CpE201.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CpE201/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CpE201/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CpE201/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CpE201/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CpE201/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CpE201/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employees/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employees/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employees/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employees/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employees/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employees/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/calendar/add_task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/calendar/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/calendar/delete_task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/calendar/edit_task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/calendar/view_task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/admin_dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/employee_dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/employees/attendance_overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/employees/attendance_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/employees/edit_employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/employees/sign_in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/employees/sign_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register_employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="28ef420e-9c08-406c-8364-df4fa5eeb291" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/PycharmProjects/CPE201/venv/Lib/site-packages/django/forms/models.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2k0nJa9fLBqMxng3w69QJOAZbSC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.CpE201.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "master",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/Users/Reiks/Downloads/CpE201 (7)/CpE201",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="CpE201" type="Python.DjangoServer" factoryName="Django server">
+      <module name="CpE201" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="CpE201.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.347" />
+        <option value="bundled-python-sdk-c2d6afa66fbe-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.347" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="017429d6-662f-4b6d-94a6-c442d2d53e65" name="Changes" comment="" />
+      <created>1722429290994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722429290994</updated>
+      <workItem from="1722429292064" duration="2586000" />
+      <workItem from="1722860114743" duration="1333000" />
+      <workItem from="1725509941271" duration="18000" />
+      <workItem from="1725611395538" duration="489000" />
+      <workItem from="1725611945540" duration="280000" />
+      <workItem from="1725663847178" duration="340000" />
+      <workItem from="1725664201692" duration="808000" />
+      <workItem from="1728375153897" duration="1322000" />
+      <workItem from="1728465226015" duration="125000" />
+      <workItem from="1729041824564" duration="614000" />
+      <workItem from="1729162794481" duration="1903000" />
+      <workItem from="1729250272778" duration="102000" />
+      <workItem from="1729304811952" duration="3675000" />
+      <workItem from="1729337284290" duration="13926000" />
+      <workItem from="1729354109609" duration="73000" />
+      <workItem from="1729387294917" duration="16500000" />
+      <workItem from="1729407553362" duration="278000" />
+      <workItem from="1730201793895" duration="653000" />
+      <workItem from="1730202466400" duration="5000" />
+      <workItem from="1730202478218" duration="11000" />
+      <workItem from="1730202509235" duration="20685000" />
+      <workItem from="1730256557677" duration="8835000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Admin Dashboard{% endblock %}
+{% block content %}
+<div class="container">
+    <h1>Admin Dashboard</h1>
+    <h2>Registered Employees</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Actions</th>  <!-- Added Actions header -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for employee in employees %}
+            <tr class="{% cycle 'odd-row' 'even-row' %}">
+                <td>{{ employee.username }}</td>
+                <td>{{ employee.email }}</td>
+                <td>{{ employee.address }}</td>
+                <td>
+                    <a href="{% url 'edit_employee' employee.id %}" class="btn btn-warning">Edit</a>
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="4">No employees registered yet.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="container mt-4">
+    <button class="btn btn-danger" onclick="window.location.href='{% url 'logout' %}'">Logout</button>
+</div>
+    
+{% endblock %}

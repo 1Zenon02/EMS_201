@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light grey background for a softer look */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px; /* Reduced width for a more compact form */
+    margin: 100px auto; /* Center the container with top margin */
+    padding: 30px; /* Increased padding for better spacing */
+    background: #ffffff; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for elevation */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.container:hover {
+    transform: scale(1.02); /* Slightly enlarge the container on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+form p {
+    margin: 0.5em 0; /* Margin around form elements */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"] {
+    padding: 12px; /* More padding for better touch targets */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ddd; /* Light border for input fields */
+    border-radius: 5px; /* Rounded edges */
+    font-size: 14px; /* Adjust font size */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 12px; /* More padding for better touch targets */
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* White text for contrast */
+    border: none; /* No border for a flat button */
+    border-radius: 5px; /* Rounded edges */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.links {
+    text-align: center; /* Center the links */
+    margin-top: 20px; /* Space above the links */
+}
+
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
