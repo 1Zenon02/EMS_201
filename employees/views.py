@@ -1,7 +1,9 @@
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
+from django.http import JsonResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect, get_object_or_404
+from django.urls import reverse
 from django.utils import timezone
 from .forms import *
 
@@ -203,3 +205,34 @@ def edit_employee_view(request, user_id):
         'form': form,
         'employee': employee
     })
+
+@login_required
+def add_employee_view(request):
+    if request.user.role != 'admin':
+        return render(request, '403.html')
+
+    if request.method == 'POST':
+        form = EmployeeForm(request.POST)
+        if form.is_valid():
+            form.instance.is_staff = False  # Ensure it's a non-admin user
+            form.save()
+            return redirect('admin_dashboard')  # Redirect to the admin dashboard or other page
+    else:
+        form = EmployeeForm()
+
+    return render(request, 'employees/add_employee.html', {'form': form})
+
+
+@login_required
+def delete_employee(request, employee_id):
+    if request.user.role != 'admin':
+        return render(request, '403.html')
+
+    employee = get_object_or_404(CustomUser, id=employee_id, role='employee')
+
+    if request.method == 'POST':
+        employee.delete()
+        return redirect('admin_dashboard')
+
+    return render(request, 'dashboard/admin_dashboard.html', {'error': 'Invalid request'})
+

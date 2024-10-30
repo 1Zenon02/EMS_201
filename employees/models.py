@@ -85,7 +85,7 @@ class SignInOut(models.Model):
         if self.sign_out_time:
             # Calculate duration in hours
             return (self.sign_out_time - self.sign_in_time).total_seconds() / 3600
-        return 0.0  # Return 0 hours if not signed out
+        return 0.0
 
     def calculate_salary(self):
         hours_worked = self.duration() # Convert duration to hours

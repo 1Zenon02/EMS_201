@@ -23,4 +23,6 @@ urlpatterns = [
     path('salary_record/', attendance_report, name = 'salary_record'),
     path('employee_salary_overview/', attendance_overview_view, name = 'employee_salary_overview'),
     path('edit_employee/<int:user_id>/', edit_employee_view, name='edit_employee'),
+    path('delete_employee/<int:employee_id>/', delete_employee, name='delete_employee'),
+    path('add_employee/', add_employee_view, name='add_employee'),
 ]

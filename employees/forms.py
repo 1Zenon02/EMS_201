@@ -36,6 +36,16 @@ class CustomUserForm(forms.ModelForm):
             'email', 'phone_number', 'address',
             'salary_rate'
         ]
+        
+class EmployeeForm(forms.ModelForm):
+    birth_date = forms.DateField(required=True, widget=forms.TextInput(attrs={'type': 'date'}))
+    class Meta:
+        model = CustomUser
+        fields = ['username', 'email', 'first_name', 'last_name', 'phone_number', 'address', 'birth_date', 'role',
+                  'salary_rate']
+        widgets = {
+            'role': forms.HiddenInput(attrs={'value': 'employee'})  # Set role to employee by default
+        }
 
 class LoginForm(forms.Form):
     username = forms.CharField(max_length=150, widget=forms.TextInput(attrs={'placeholder': 'Username'}))
